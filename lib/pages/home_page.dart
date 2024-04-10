@@ -79,7 +79,7 @@ class _HomePageState<T extends HomePage> extends State<T> with WidgetsBindingObs
           _scan();
         },
         tooltip: 'Open Camara',
-        child: const Icon(Icons.install_desktop),
+        child: const Icon(Icons.text_fields, size: 40),
       ),
     );
   }
