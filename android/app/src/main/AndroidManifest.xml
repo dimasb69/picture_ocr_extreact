@@ -2,7 +2,7 @@
 
     <uses-permission android:name="android.permmision.CAMERA"/>
     <application
-        android:label="img_to_text"
+        android:label="Img text Extract"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
         android:enableOnBackInvokedCallback="true">
