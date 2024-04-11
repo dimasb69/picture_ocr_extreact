@@ -81,6 +81,7 @@ class _HomePageState<T extends HomePage> extends State<T> with WidgetsBindingObs
         tooltip: 'Open Camara',
         child: const Icon(Icons.text_fields, size: 40),
       ),
+      bottomNavigationBar: bottomDevName(),
     );
   }
 

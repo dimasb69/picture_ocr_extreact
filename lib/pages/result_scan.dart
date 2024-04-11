@@ -39,12 +39,13 @@ class ResultPage extends StatelessWidget {
 
 
                 },
-                child: const Icon(Icons.share),
+                child: const Icon(Icons.share, size: 35),
               ),
             )
           ],
         )),
       ),
+      bottomNavigationBar: bottomDevName(),
     );
   }
 
